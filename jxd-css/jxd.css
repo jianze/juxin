@@ -474,13 +474,11 @@ img{
     }
     .jxd-gsys .gsys-box .gsys-left .gsys-jxwenzi{
         line-height: normal !important;
-        /*margin-top: 4% !important;*/
     }
     .jxd-gsys{
         height: auto;
         padding-bottom: 30px;
         background: url("../jxd-images/jxddbt.jpg") no-repeat center -60px;
-        background-attachment: fixed;
     }
     .jxd-gsys .gsys-ziyun{
         margin-top: 0 !important;
@@ -906,23 +904,19 @@ img{
     margin-top: 60px;
 }
 .jxd-lianxi .lx-dzba h2{
-    color: #808080;
     text-align: center;
     font-size: 18px;
     margin-bottom: 0.4rem;
 }
 .jxd-lianxi .lx-dzba h2 span{
-    color: #808080;
     font-size: 16px;
 }
 .jxd-lianxi .lx-dzba p{
-    color: #808080;
     text-align: center;
     font-size: 16px;
     margin-bottom: 0.1rem;
 }
 .jxd-lianxi .lx-dzba .lx-ba{
-    color: #808080;
     font-size: 12px;
     margin-top: 0.6rem;
     margin-bottom: 0;
@@ -936,6 +930,14 @@ img{
 }
 .jxd-lianxi .lx-dzba .jiathis_style_24x24 .jtico{
     padding-left: 40px!important;
+}
+@media screen and (max-width: 768px){
+    .jxd-lianxi{
+        background: url("../jxd-images/lxwm.jpg") no-repeat center 0;
+    }
+    .jxd-lianxi .lx-bd form .lx-tijiao{
+        border-radius: 1px;
+    }
 }
 
 @media screen and (max-width: 1024px){
