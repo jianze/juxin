@@ -834,6 +834,11 @@ img{
     background-attachment: fixed;
     padding-bottom: 10px;
 }
+@media screen and (max-width: 768px){
+    .jxd-lianxi{
+        background: url("../jxd-images/lxwm.jpg") no-repeat center 0;
+    }
+}
 .jxd-lianxi h1{
     font-size: 28px;
     color: #666666;
@@ -930,14 +935,6 @@ img{
 }
 .jxd-lianxi .lx-dzba .jiathis_style_24x24 .jtico{
     padding-left: 40px!important;
-}
-@media screen and (max-width: 768px){
-    .jxd-lianxi{
-        background: url("../jxd-images/lxwm.jpg") no-repeat center 0;
-    }
-    .jxd-lianxi .lx-bd form .lx-tijiao{
-        border-radius: 1px;
-    }
 }
 
 @media screen and (max-width: 1024px){
