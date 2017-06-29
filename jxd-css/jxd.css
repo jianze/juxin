@@ -103,7 +103,7 @@ input[type=button], input[type=submit], input[type=file], button {
     background: url("../jxd-images/jxdbanner.jpg") center -30px;
     background-attachment: fixed;
 }
-.jxd-banner .jxd-shubiao{
+.jxd-banner .jxd-shubiao,.jxd-nav-tou .jxd-xiangxia{
     width: 30px;
     height: 30px;
     background: url("../jxd-images/shubiaox.png") no-repeat;
@@ -111,6 +111,15 @@ input[type=button], input[type=submit], input[type=file], button {
     left: 50%;
     bottom: 50px;
     margin-left: -15px;
+}
+.jxd-nav-tou .jxd-xiangxia{
+    background: url("../jxd-images/shuxia.png") no-repeat;
+    animation: xiangxiay 1s ease-in-out infinite alternate;
+}
+@keyframes xiangxiay{
+    100%{
+        bottom:30px;
+    }
 }
 .sagfsag{
     width: 200px;
