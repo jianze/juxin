@@ -113,12 +113,13 @@ input[type=button], input[type=submit], input[type=file], button {
     margin-left: -15px;
 }
 .jxd-nav-tou .jxd-xiangxia{
+    bottom: 20px;
     background: url("../jxd-images/shuxia.png") no-repeat;
     animation: xiangxiay 1s ease-in-out infinite alternate;
 }
 @keyframes xiangxiay{
     100%{
-        bottom:30px;
+        bottom:10px;
     }
 }
 .sagfsag{
