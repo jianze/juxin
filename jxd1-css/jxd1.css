@@ -554,7 +554,10 @@ input[type=button], input[type=submit], input[type=file], button {
     box-sizing: border-box;
 }
 .ban7-box{
-    padding-top: 40px;
+    padding-top: 1px;
+    padding-bottom: 40px;
+    background: rgba(247,210,121,0.3);
+    margin-top: 50px;
 }
 .ban7-box ul{
     width: 876px;
@@ -681,6 +684,7 @@ input[type=button], input[type=submit], input[type=file], button {
     width: 174px;
     height: 246px;
     float: left;
+    line-height: 0;
 }
 .ban9-box .lun-box .lun-boxn ul li img{
     width: 100%;
