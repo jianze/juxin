@@ -347,6 +347,11 @@ input[type=button], input[type=submit], input[type=file], button {
     text-align: center;
     margin-top: 7px;
 }
+.ban2-box p span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
 .ban2-box .djs{
     width: 510px;
     margin: 48px auto 0;
@@ -392,7 +397,7 @@ input[type=button], input[type=submit], input[type=file], button {
 }
 .ban2-box .zx{
     display: block;
-    width: 158px;
+    width: 200px;
     height:45px;
     text-align: center;
     line-height: 45px;
@@ -585,10 +590,10 @@ input[type=button], input[type=submit], input[type=file], button {
     line-height: 34px;
 }
 .ban7-box ul li .p1{
-    margin-top: 90px;
+    margin-top: 45px;
 }
 .ban7-box ul li .p2{
-    margin-top: 126px;
+    margin-top: 80px;
 }
 .ban8-box .n1{
     width: 991px;
